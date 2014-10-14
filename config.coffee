@@ -8,7 +8,7 @@
 ###
 
 window.config  =
-siteLink        :      'http://localhost:63342/test/'                            # адрес сайта
+siteLink        :      'http://taxi.pios.cc/'                             # адрес сайта
 useXDomain      :       false                                             # Подключать или нет useXDomain
 debug           :       true                                              # Дебаг
 mainPage        :       '/'                                               # Главная загружаемая страница

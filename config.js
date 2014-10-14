@@ -10,7 +10,7 @@
 
 (function() {
   window.config = {
-    siteLink: 'http://localhost:63342/test/',
+    siteLink: 'http://taxi.pios.cc/',
     useXDomain: false,
     debug: true,
     mainPage: '/',
