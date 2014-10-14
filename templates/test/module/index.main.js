@@ -15,6 +15,9 @@
         testValue.photos_id = index;
         return $state.go('index.View');
       };
+      $scope.remove = function(index) {
+        return $scope.photos_public.splice(index, 1);
+      };
       return api.get("http://api.flickr.com/services/feeds/photos_public.gne", {
         'tags': 'cat',
         'tagmode': 'any',

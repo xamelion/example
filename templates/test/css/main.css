@@ -23,6 +23,20 @@ body {
   width: 240px;
   height: 240px;
   float: left;
+}
+.imageBlock >span {
+  position: absolute;
+  color: #f00;
+  margin-left: 230px;
+  cursor: pointer;
+  display: none;
+}
+.imageBlock:hover span {
+  display: block;
+}
+.imageBlock >div {
+  width: 240px;
+  height: 240px;
   background-size: cover;
   cursor: pointer;
 }

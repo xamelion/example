@@ -1,2 +1,4 @@
-<div class="imageBlock" ng-click="view($index)" ng-repeat="value in photos_public" style="background-image: url({{value.media.m}})">
+<div class="imageBlock"  ng-repeat="value in photos_public" >
+    <span ng-click="remove($index)">x</span>
+    <div style="background-image: url({{value.media.m}})" ng-click="view($index)"></div>
 </div>

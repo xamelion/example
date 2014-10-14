@@ -14,6 +14,8 @@ App.Controller.IndexMain = centerView: ($scope,$state, testService, testValue,ap
     testValue.photos_id = index
     $state.go('index.View')
 
+  $scope.remove =  ( index ) ->
+    $scope.photos_public.splice(index,1)
 
 
   api.get "http://api.flickr.com/services/feeds/photos_public.gne",
