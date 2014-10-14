@@ -1,0 +1,36 @@
+/*Настройки*/
+vendor(name, args)
+  -webkit-{name} args
+  -moz-{name} args
+  -ie-{name} args
+  -o-{name} args
+  {name} args
+
+border-radius()
+  vendor('border-radius', arguments);
+
+body
+  background-color: #f0f0f0
+
+#mainDiv
+  vendor('box-shadow', 0 0 10px rgba(0,0,0,0.5))
+  border: 1px solid #999999
+  margin: 0 auto
+  width: 960px
+  min-height: 600px
+  background-color: #fff
+  display : table
+
+#copy
+  text-align: center
+  margin: 10px
+
+.imageBlock
+  width: 240px
+  height: 240px
+  float: left
+  background-size: cover
+  cursor: pointer
+
+
+

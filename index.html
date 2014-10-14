@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app='PhenomJS' ng-cloak class="ng-cloak" ng-controller="App.Controller.MainApp.Main">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="fragment" content="!" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <!--Скрипт для организации нормальной работы с NodeWebKit-->
+    <script type="text/javascript">if( typeof require === 'function' && window.requireNode === undefined  ){window.requireNode = window.require;window.gui = window.requireNode('nw.gui');window.require = undefined;}else{window.requireNode = false; }</script>
+    <!--Не отображаем сайт, до полной загрузки скриптов-->
+    <style type="text/css">[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {display: none !important;}</style>
+    <!--Подключаем конфигурационный файл-->
+    <script type="text/javascript" src="config.js"></script>
+
+    <link rel="stylesheet" href="assets/vendors/angular-loading-bar/build/loading-bar.min.css"/>
+    <link rel="stylesheet" href="templates/test/css/main.css"/>
+    <!--Подключаем загрузчик скриптов-->
+    <script type="text/javascript" data-main="boot"  src="assets/vendors/requirejs/require.js?2.1.10"></script>
+</head>
+<body  ng-cloak class="ng-cloak">
+<div ui-view="mainView"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "authors": [
+    "Vitaliy Kanev <1xamelion1@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets",
+    "templates"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.*",
+    "angular": "~1.3.0",
+    "angular-ui-router": "~0.2.*",
+    "moment": "~2.5.*",
+    "underscore": "~1.5.*",
+    "angular-loading-bar": "~0.3.*",
+    "requirejs": "~2.1.*",
+    "angular-animate": "~1.2.*",
+    "angular-resource": "~1.3.0",
+    "angular-sanitize": "~1.3.0"
+  }
+}

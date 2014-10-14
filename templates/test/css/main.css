@@ -1,0 +1,28 @@
+/*Настройки*/
+body {
+  background-color: #f0f0f0;
+}
+#mainDiv {
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -ie-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 1px solid #999;
+  margin: 0 auto;
+  width: 960px;
+  min-height: 600px;
+  background-color: #fff;
+  display: table;
+}
+#copy {
+  text-align: center;
+  margin: 10px;
+}
+.imageBlock {
+  width: 240px;
+  height: 240px;
+  float: left;
+  background-size: cover;
+  cursor: pointer;
+}
